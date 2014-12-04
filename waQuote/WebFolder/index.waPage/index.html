@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html><html>
+	<head>
+		<title>Main Page</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="generator" content="Wakanda GUIDesigner"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<meta name="WAF.packageJson"/>
+		<meta name="WAF.catalog" content="Topic"/>
+		<meta name="wakanda-version" content="Dev build 0.174320"/>
+		<meta name="wakanda-build" content="0.174320"/>
+		<meta name="WAF.config.loadCSS" id="waf-interface-css" content="styles/index.css"/>
+		<meta name="WAF.config.loadCSS" id="waf-project-css" content="/application.css"/>
+
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="array" data-source="nationalities" data-lib="WAF" data-id="nationalities" data-dataType="string" data-autoLoad="true" data-attributes="nationality:string" content="nationalities"/>
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="Topic" data-lib="WAF" data-id="topic" data-dataType="string" data-autoLoad="true" content="topic"/>
+		<meta name="WAF.config.loadJS" id="waf-script" content="scripts/index.js"/>
+
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="array" data-source="professions" data-lib="WAF" data-id="professions" data-dataType="string" data-autoLoad="true" data-attributes="profession:string" content="professions"/><meta name="WAF.config.rpc.file" content="/rpc-proxy/QuotesUtils?namespace=QuotesUtils"/>
+
+		<meta data-type="dataSource" data-lib="WAF" data-source="result" data-source-type="array" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="result" data-attributes="Quote:string,Author:string" content="result"/></head>
+	<body id="waf-body" data-workspace-width="0" data-workspace-orientation="portrait" data-workspace-height="0" data-workspace-device="desktop" data-viewport-width="device-width" data-viewport-minimum-scale="1.0" data-viewport-maximum-scale="1.0" data-viewport-initial-scale="1.0" data-type="document" data-title="Main Page" data-theme="default" data-rpc-validation="false" data-rpc-namespace="rpc" data-rpc-activate="false" data-platform="desktop" data-lib="WAF" data-group="[]" data-entire-model="false" data-apple-meta-tags-status-bar="default" style="bottom:;right:;visibility:hidden;">
+		<div id="combobox4" data-type="combobox" data-limit="20" data-lib="WAF" data-label-position="left" data-label="" data-editable="true" data-constraint-top="true" data-constraint-left="true" data-binding-options="[profession] " data-binding-key="profession" data-binding="professions" data-autoDispatch="true" class="waf-widget waf-combobox"><select><option value="">[profession] </option></select></div>
+		<div id="combobox7" data-type="combobox" data-limit="20" data-lib="WAF" data-label-position="left" data-label="" data-editable="true" data-constraint-top="true" data-constraint-left="true" data-binding-options="[Name] " data-binding-key="Name" data-binding="topic" data-autoDispatch="true" class="waf-widget waf-combobox"><select><option value="">[Name] </option></select></div>
+		<div id="combobox8" data-type="combobox" data-limit="20" data-lib="WAF" data-label-position="left" data-label="" data-editable="true" data-constraint-top="true" data-constraint-left="true" data-binding-options="[nationality] " data-binding-key="nationality" data-binding="nationalities" data-autoDispatch="true" class="waf-widget waf-combobox"><select><option value="">[nationality] </option></select></div>
+			<div id="tableView1" data-type="TableView" data-package="TableView" class="waf-widget waf-tableview" style="cursor: move; " data-rows="result" data-cols="[{&quot;label&quot;:&quot;Quote&quot;,&quot;attribute&quot;:&quot;Quote&quot;},{&quot;label&quot;:&quot;Author&quot;,&quot;attribute&quot;:&quot;Author&quot;}]" data-constraint-left="true" data-constraint-top="true" data-start="0" data-currentpage="1" data-pagesize="20" data-navigationmode="pagination" data-simpleeditmode="false"><table class="waf-tableview waf-ui-box"><tfoot class="waf-ui-footer"></tfoot><thead class="waf-ui-header"><tr><th>Quote</th><th>Author</th></tr></thead><tbody class="waf-ui-body" style="-webkit-user-select: none; -webkit-user-drag: none; "></tbody></table></div>
+		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script></body>
+</html>
